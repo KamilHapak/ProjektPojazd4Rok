@@ -15,15 +15,19 @@ import nadwozie.Maska;
 import nadwozie.Nadwozie;
 import nadwozie.PasBezpieczenstwa;
 import nadwozie.PoduszkaPowietrzna;
+import nadwozie.Szyba;
 import nadwozie.Szyberdach;
+import nadwozie.Wycieraczka;
 import nadwozie.Zderzak;
-import podwozie.Felga;
-import podwozie.Opona;
+import podwozie.zawieszenie.Felga;
+import podwozie.zawieszenie.Opona;
 import silnik.BlokSilnika;
 import silnik.FiltrPowietrza;
 import silnik.MiskaOlejowa;
 import silnik.PompaOleju;
 import ukladElektryczny.Bezpiecznik;
+import ukladelektryczny.Radio;
+import ukladelektryczny.Reflektor;
 
 /**
  * Klasa służy do reprezentowania Pojazdu
@@ -44,14 +48,16 @@ public class Pojazd {
     nadwozie.PasBezpieczenstwa pasbezpieczenstwa = new PasBezpieczenstwa();
     nadwozie.PoduszkaPowietrzna poduszkapowietrzna = new PoduszkaPowietrzna();
     nadwozie.Szyberdach szyberdach = new Szyberdach();
+    nadwozie.Szyba szyba = new Szyba();
+    nadwozie.Wycieraczka wycieraczka = new Wycieraczka();
     //nadwozie
     
     dodatki.ChoinkaZapachowa choinkazapachowa = new ChoinkaZapachowa();
     dodatki.ChromowanaNakladkaNaPedal chromowananakladkanapedal = new ChromowanaNakladkaNaPedal();
     //dodatki
     
-    podwozie.Felga felga = new Felga();
-    podwozie.Opona opona = new Opona();
+    podwozie.zawieszenie.Felga felga = new Felga();
+    podwozie.zawieszenie.Opona opona = new Opona();
     //podwozie
     
     silnik.BlokSilnika bloksilnika = new BlokSilnika();
@@ -61,5 +67,7 @@ public class Pojazd {
     //silnik
     
     ukladElektryczny.Bezpiecznik bezpiecznik = new Bezpiecznik();
+    ukladElektryczny.Radio radio = new Radio();
+    ukladElektryczny.Reflektor reflektor = new Reflektor();
     //uklad elektryczny
 }

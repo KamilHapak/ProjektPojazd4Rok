@@ -1,4 +1,4 @@
-package podwozie;
+package podwozie.zawieszenie;
 
 /**
  * Klasa służy do reprezentowania felgi samochodowej
