@@ -11,18 +11,6 @@ package nadwozie;
  */
 
 
-
-/*
- KostkaPluszowa,
-
- ChoinkaZapachowa
-
- ChromowanaNakladkaNaPedal
-
- Dodatki(KostkaPluszowa, 3x ChromowanaNakladkaNaPedal, ChoinkaZapachowa)
-
-
-*/
 public class Dodatki
 {
     
