@@ -27,6 +27,7 @@ public class Nadwozie {
         maska=new Maska();
         zderzakPrzedni=new Zderzak();
         zderzakTylny=new Zderzak();
+                
         System.out.println("[nadwozie.Nadwozie] Utworzono obiekt klasy Nadwozie");
     }//public Nadwozie
     
