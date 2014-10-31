@@ -1,4 +1,4 @@
-package ukladElektryczny;
+package ukladel;
 
 /**
  *
