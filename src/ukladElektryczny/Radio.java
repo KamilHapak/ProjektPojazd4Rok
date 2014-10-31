@@ -1,4 +1,4 @@
-package ukladel;
+package ukladElektryczny;
 
 /**
  * Klasa służy do reprezentowania Radio
