@@ -12,6 +12,6 @@ public class Alternator {
     * Konstruktor klasy Alternator
     */
     public Alternator() {
-        System.out.println("[ukladElektruczny.Alternator] Utworzono obiekt klasy alternator.");
+        System.out.println("[ukladElektryczny.Alternator] Utworzono obiekt klasy alternator.");
     }//public Alternator
 }
