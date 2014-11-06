@@ -5,29 +5,11 @@
  */
 package pojazd;
 
-import dodatki.ChoinkaZapachowa;
-import dodatki.ChromowanaNakladkaNaPedal;
-import nadwozie.Drzwi;
-import nadwozie.Fotel;
-import nadwozie.Kanapa;
-import nadwozie.Lusterko;
-import nadwozie.Maska;
-import nadwozie.Nadwozie;
-import nadwozie.PasBezpieczenstwa;
-import nadwozie.PoduszkaPowietrzna;
-import nadwozie.Szyba;
-import nadwozie.Szyberdach;
-import nadwozie.Wycieraczka;
-import nadwozie.Zderzak;
-import podwozie.zawieszenie.Felga;
-import podwozie.zawieszenie.Opona;
-import silnik.BlokSilnika;
-import silnik.FiltrPowietrza;
-import silnik.MiskaOlejowa;
-import silnik.PompaOleju;
-import ukladElektryczny.Bezpiecznik;
-import ukladElektryczny.Radio;
-import ukladElektryczny.Reflektor;
+import dodatki.*;
+import nadwozie.*;
+import podwozie.zawieszenie.*;
+import silnik.*;
+import ukladElektryczny.*;
 
 /**
  * Klasa służy do reprezentowania Pojazdu
