@@ -12,6 +12,6 @@ public class Rozrusznik {
     * Konstruktor klasy Alternator
     */
     public Rozrusznik() {
-        System.out.println("[ukladElektruczny.Rozrusznik] Utworzono obiekt klasy rozrusznik.");
+        System.out.println("[ukladElektryczny.Rozrusznik] Utworzono obiekt klasy rozrusznik.");
     }//public Rozrusznik
 }
