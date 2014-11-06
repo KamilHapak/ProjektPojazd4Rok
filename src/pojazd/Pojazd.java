@@ -26,8 +26,8 @@ import silnik.FiltrPowietrza;
 import silnik.MiskaOlejowa;
 import silnik.PompaOleju;
 import ukladElektryczny.Bezpiecznik;
-import ukladelektryczny.Radio;
-import ukladelektryczny.Reflektor;
+import ukladElektryczny.Radio;
+import ukladElektryczny.Reflektor;
 
 /**
  * Klasa służy do reprezentowania Pojazdu
